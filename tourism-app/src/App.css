@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+*{
+  font-family: 'Lora';
+}
+body{
+  background-color: #000000;
+  background-image: url(../src/images/my-little-plaid-dark.png);
+}
+
+.bg-image {
+  background-image: url(../src/images/bg.jpg);
+  height: 99vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: rgba(184, 197, 187, 0.541);
+  background-blend-mode: screen;
+  font-family: "Alatsi";
+  font-weight: bold;
+}
+
+#h-menu {
+  background: white;
+}
+#nav-edit {
+  color: #FFE9B1;
+  font-weight: bold;
+  font-size: large;
+  
+}
+
+#nav-edit:hover {
+  color: #ffffff;
+}
+
+#nav-edit-color {
+  background-color: black;
+}
+
+#hero {
+  padding-top: 10rem;
+
+}
+
+#hero-text{
+  color: rgb(0, 0, 0);
+  text-shadow:  0 1px 0 rgba(0, 0, 0, 0.355),
+  0 2px 0 rgba(3, 3, 3, 0.364);
+}
+
+#hero h1 {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  text-shadow:  0 1px 0 rgba(0, 0, 0, 0.355),
+                0 2px 0 rgba(0, 0, 0, 0.364),
+                0 3px 0 rgba(0, 0, 0, 0.473);
+  animation: 2s anim-lineUp ease-out;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+#hero-btn {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  transition: 1s background-color;
+}
+
+#hero-btn:hover {
+  background-color: rgba(0, 0, 0, 0.551);
+
+}
+
+#Cards-container{
+  background-color: transparent;
+  
+}
+
